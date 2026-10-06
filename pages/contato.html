@@ -2,17 +2,21 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TripWay - Contato</title>
+<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
 <header>
 <h2>TripWay</h2>
 <nav>
-<a href="../index.html">Home</a> |
-<a href="destinos.html">Destinos</a> |
-<a href="servicos.html">Pacotes</a> |
-<a href="contato.html">Contato</a>
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="destinos.html">Destinos</a></li>
+<li><a href="pacotes.html">Pacotes</a></li>
+<li><a href="contato.html">Contato</a></li>
+</ul>
 </nav>
 </header>
 
@@ -20,6 +24,7 @@
 <section>
 <h1>Contato / Reserva</h1>
 <p>Preencha para simular sua viagem:</p>
+<img src="../images/equipe.jpg" alt="Equipe da TripWay pronta para ajudar no planejamento da viagem" width="600">
 
 <form action="#" method="POST">
 <label>Nome:<br><input type="text" name="nome" required></label><br><br>
@@ -27,18 +32,18 @@
 <label>Destino:<br>
 <select name="destino" required>
 <option value="">Selecione</option>
-<option>Praia</option>
-<option>Montanha</option>
-<option>Cidade</option>
+<option>Kingston - Jamaica</option>
+<option>Ilha Santorini - Grécia</option>
+<option>Jalapão - Brasil</option>
 </select>
 </label><br><br>
 <label>Data:<br><input type="date" name="data" required></label><br><br>
 <label>Pessoas:<br><input type="number" name="pessoas" min="1" required></label><br><br>
 <label>Mensagem:<br><textarea name="mensagem" required></textarea></label><br><br>
-<button>Enviar</button>
+<button type="submit">Enviar</button>
 </form>
 
-</section> 
+</section>
 </main>
 
 <footer>
@@ -46,4 +51,4 @@
 </footer>
 
 </body>
-</html>  
+</html>
