@@ -1,0 +1,20 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0; 
+}
+
+article img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.imagem-pacote {
+    width: 100%;
+    max-width: 450px;
+}
+
+main img {
+    margin-bottom: 20px;
+}
