@@ -86,3 +86,29 @@ main img {
 
 }
 
+
+/* TABLET */
+@media (max-width: 768px) {
+
+    .card-destino {
+        flex: 1 1 calc(50% - 0.75rem);
+        max-width: none;
+    }
+
+}
+
+/* CELULAR */
+@media (max-width: 560px) {
+
+    .destinos-container {
+        padding: 1.5rem 1rem;
+    }
+
+    .card-destino {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+}
+
+
