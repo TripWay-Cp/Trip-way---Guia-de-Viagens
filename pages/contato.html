@@ -26,21 +26,25 @@
 <p>Preencha para simular sua viagem:</p>
 <img src="../images/equipe.jpg" alt="Equipe da TripWay pronta para ajudar no planejamento da viagem" width="600">
 
-<form action="#" method="POST">
-<label>Nome:<br><input type="text" name="nome" required></label><br><br>
-<label>E-mail:<br><input type="email" name="email" required></label><br><br>
-<label>Destino:<br>
-<select name="destino" required>
+<form action="#" method="POST" class="form-contato">
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" required>
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email" required>
+<label for="destino">Destino:</label>
+<select id="destino" name="destino" required>
 <option value="">Selecione</option>
 <option>Kingston - Jamaica</option>
 <option>Ilha Santorini - Grécia</option>
 <option>Jalapão - Brasil</option>
 </select>
-</label><br><br>
-<label>Data:<br><input type="date" name="data" required></label><br><br>
-<label>Pessoas:<br><input type="number" name="pessoas" min="1" required></label><br><br>
-<label>Mensagem:<br><textarea name="mensagem" required></textarea></label><br><br>
-<button type="submit">Enviar</button>
+<label for="data">Data da viagem:</label>
+<input type="date" id="data" name="data" required>
+<label for="pessoas">Quantidade de pessoas:</label>
+<input type="number" id="pessoas" name="pessoas" min="1" required>
+<label for="mensagem">Mensagem:</label>
+<textarea id="mensagem" name="mensagem" rows="5"></textarea>
+<button type="submit" class="btn btn-primario">Enviar</button>
 </form>
 
 </section>
