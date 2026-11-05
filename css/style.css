@@ -132,10 +132,13 @@ a:hover {
 /* HOME                          */
 /* ============================= */
 
-/* Banner principal */
-.hero {
+/* Banner principal (estilizado pelo ID) */
+#banner {
     background: linear-gradient(135deg, var(--cor-escura), var(--cor-primaria));
     color: var(--cor-branco);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
     padding: 4rem 0;
 }
 
@@ -199,6 +202,10 @@ a:hover {
 }
 
 /* Sobre */
+#sobre {
+    border-bottom: 0.0625rem solid #e5e7eb;
+}
+
 .sobre-container {
     display: flex;
     align-items: center;
@@ -297,6 +304,34 @@ article img {
 .imagem-pacote {
     width: 100%;
     max-width: 450px;
+}
+
+
+/* Home - tablet e celular */
+@media (max-width: 768px) {
+
+    .hero-container,
+    .sobre-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #banner {
+        min-height: auto;
+        padding: 2.5rem 0;
+    }
+
+    .hero-titulo {
+        font-size: 1.9rem;
+    }
+
+    .hero .hero-imagem {
+        height: 14rem;
+    }
+
+    .secao {
+        padding: 2.5rem 0;
+    }
 }
 
 
