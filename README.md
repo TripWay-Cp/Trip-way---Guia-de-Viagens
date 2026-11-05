@@ -1,10 +1,29 @@
 # TripWay - Guia de Viagens
 
-Projeto desenvolvido para o **Checkpoint 2 de Front-End** da FIAP.
+## Integrantes
 
-No Checkpoint 1 o site foi estruturado em HTML. No Checkpoint 2 ele recebeu estilização com CSS externo, Flexbox e responsividade.
+Turma: **1TDSPT**
 
-Site multipágina em HTML de uma empresa fictícia de viagens chamada **TripWay**, que apresenta destinos, pacotes e permite ao usuário simular uma reserva.
+- Lucas Alves Pires - RM576621
+- Daniel Platero - RM575084
+- Rafael - RM575391
+
+## Descrição
+
+Projeto desenvolvido para a disciplina de Front-End da FIAP, com o objetivo de criar um site multipágina para a **TripWay**, uma empresa fictícia de viagens que apresenta destinos, pacotes e permite ao usuário simular uma reserva.
+
+## Evolução do Projeto
+
+No **Checkpoint 1**, o foco foi a estrutura HTML: páginas, navegação, formulário e colaboração com GitHub.
+
+No **Checkpoint 2**, o projeto foi evoluído com CSS externo, identidade visual (cores e fontes definidas em variáveis), layout com Flexbox, cards estilizados, botões com `:hover` e responsividade para desktop, tablet e celular.
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- Git
+- GitHub
 
 ## Páginas
 
@@ -29,20 +48,6 @@ Trip-way---Guia-de-Viagens/
 │   └── style.css
 └── README.md
 ```
-
-## Integrantes
-
-| Nome | RM |
-|---|---|
-| Lucas Alves Pires | RM576621 |
-| Daniel Platero | RM575084 |
-| Rafael | RM575391 |
-
-## Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- Git e GitHub
 
 ## Conceitos aplicados
 
