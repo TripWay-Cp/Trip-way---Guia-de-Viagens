@@ -79,6 +79,6 @@ Trip-way---Guia-de-Viagens/
 |---|---|---|
 | Lucas Alves Pires - RM576621 | Home, CSS base (reset, variáveis), header, navegação e botões | `feature/home` |
 | Daniel Platero - RM575084 | Destinos, Pacotes e imagens | `feat/páginas-2-3` |
-| Rafael - RM575391 | Contato e formulário | `rafael-contato` |
+| Rafael Girardi - RM575391 | Pacotes, Contato (formulário) e responsividade | `feature/cp2-responsivo` |
 
 Todo o desenvolvimento foi feito em branches separadas e integrado na `main` por Pull Requests.
