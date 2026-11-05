@@ -83,6 +83,51 @@ nav a.ativo {
     color: var(--cor-destaque);
 }
 
+/* ============================= */
+/* LINKS E BOTÕES GLOBAIS        */
+/* ============================= */
+
+a {
+    color: var(--cor-primaria);
+}
+
+a:hover {
+    color: var(--cor-primaria-escura);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: var(--raio-borda);
+
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-primario {
+    background-color: var(--cor-destaque);
+    color: var(--cor-branco);
+}
+
+.btn-primario:hover {
+    background-color: #ea580c;
+    color: var(--cor-branco);
+}
+
+.btn-secundario {
+    background-color: var(--cor-branco);
+    color: var(--cor-primaria);
+}
+
+.btn-secundario:hover {
+    background-color: #e5e7eb;
+    color: var(--cor-primaria-escura);
+}
+
 img {
     max-width: 100%;
     height: auto;
