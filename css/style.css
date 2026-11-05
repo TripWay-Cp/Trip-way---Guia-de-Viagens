@@ -39,6 +39,50 @@ body {
     margin: 0 auto;
 }
 
+/* ============================= */
+/* HEADER E NAVEGAÇÃO            */
+/* ============================= */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    background-color: var(--cor-escura);
+    padding: 1.25rem 5%;
+}
+
+header h1 {
+    color: var(--cor-branco);
+    font-size: 1.75rem;
+}
+
+header h1 a {
+    color: var(--cor-branco);
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+nav a {
+    color: var(--cor-branco);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+
+nav a:hover,
+nav a.ativo {
+    color: var(--cor-destaque);
+}
+
 img {
     max-width: 100%;
     height: auto;
