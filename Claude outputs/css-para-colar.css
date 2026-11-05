@@ -1,0 +1,214 @@
+/* ============================= */
+/* PÁGINA DE PACOTES             */
+/* ============================= */
+
+.pacotes-titulo,
+.pacotes-subtitulo {
+    text-align: center;
+}
+
+.pacotes-subtitulo {
+    color: var(--cor-texto-claro);
+    margin-bottom: 2rem;
+}
+
+main .pacotes-banner {
+    width: 100%;
+    max-width: 100%;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 0 0 2.5rem;
+}
+
+.pacotes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.card-pacote {
+    flex: 1 1 18rem;
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--cor-branco);
+    padding: 1.75rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card-pacote:hover {
+    transform: translateY(-0.3rem);
+}
+
+.card-pacote-destaque {
+    border-top: 0.25rem solid var(--cor-destaque);
+}
+
+.pacote-tag {
+    align-self: flex-start;
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-pacote h3 {
+    color: var(--cor-escura);
+    margin-bottom: 0.5rem;
+}
+
+.card-pacote p {
+    color: var(--cor-texto-claro);
+    margin-bottom: 1rem;
+}
+
+.card-pacote ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+    flex: 1;
+}
+
+.card-pacote li {
+    padding: 0.3rem 0;
+    border-bottom: 0.0625rem solid #e5e7eb;
+}
+
+.card-pacote .btn {
+    text-align: center;
+}
+
+
+/* ============================= */
+/* PÁGINA DE CONTATO             */
+/* ============================= */
+
+.contato-container {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+}
+
+.contato-info {
+    flex: 1;
+}
+
+.contato-info p {
+    color: var(--cor-texto-claro);
+}
+
+main .contato-imagem {
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+#form-reserva {
+    flex: 1;
+    background-color: var(--cor-branco);
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+    flex: 1;
+}
+
+.campos-linha {
+    display: flex;
+    gap: 1rem;
+}
+
+.campo label {
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+    color: var(--cor-escura);
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 0.0625rem solid #d1d5db;
+    border-radius: var(--raio-borda);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    outline: none;
+    border-color: var(--cor-primaria);
+}
+
+.campo textarea {
+    resize: vertical;
+}
+
+#form-reserva .btn {
+    width: 100%;
+}
+
+
+/* ============================= */
+/* RESPONSIVIDADE GERAL          */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .contato-container,
+    .campos-linha {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .campos-linha {
+        gap: 0;
+    }
+
+    .card-pacote {
+        flex: 1 1 calc(50% - 0.75rem);
+    }
+}
+
+@media (max-width: 560px) {
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .card-pacote {
+        flex: 1 1 100%;
+    }
+
+    #form-reserva {
+        padding: 1.25rem;
+    }
+
+    main .pacotes-banner {
+        height: 12rem;
+    }
+}

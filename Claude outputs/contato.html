@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripWay - Contato</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="../index.html">TripWay</a></h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="pacotes.html">Pacotes</a></li>
+                <li><a href="contato.html" class="ativo">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="secao">
+            <div class="container contato-container">
+
+                <div class="contato-info">
+                    <h2 class="secao-titulo">Contato / Reserva</h2>
+                    <p>
+                        Preencha o formulário para simular a reserva da sua viagem.
+                        Nossa equipe entra em contato para montar o roteiro com você.
+                    </p>
+                    <img src="../images/equipe.jpg" alt="Equipe da TripWay pronta para ajudar no planejamento da viagem" class="contato-imagem">
+                </div>
+
+                <form action="#" method="POST" class="formulario" id="form-reserva">
+
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="destino">Destino de interesse</label>
+                        <select id="destino" name="destino" required>
+                            <option value="">Selecione</option>
+                            <option>Kingston - Jamaica</option>
+                            <option>Ilha Santorini - Grécia</option>
+                            <option>Jalapão - Brasil</option>
+                        </select>
+                    </div>
+
+                    <div class="campos-linha">
+                        <div class="campo">
+                            <label for="data">Data</label>
+                            <input type="date" id="data" name="data" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="pessoas">Quantidade de pessoas</label>
+                            <input type="number" id="pessoas" name="pessoas" min="1" placeholder="1" required>
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte o que você espera da viagem" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primario">Enviar reserva</button>
+
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TripWay - Guia de Viagens. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

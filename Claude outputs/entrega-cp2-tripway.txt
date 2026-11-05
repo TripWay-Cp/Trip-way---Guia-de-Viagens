@@ -1,0 +1,13 @@
+Checkpoint 2 - Front-End - TripWay
+
+Repositório: https://github.com/TripWay-Cp/Trip-way---Guia-de-Viagens
+
+Turma: 1TDSPT
+
+Integrantes:
+- Lucas Alves Pires - RM576621
+- Daniel Platero - RM575084
+- Rafael [SOBRENOME] - RM575391
+
+Evolução feita no Checkpoint 2:
+No Checkpoint 1 o site TripWay tinha apenas a estrutura em HTML. No Checkpoint 2 o projeto foi evoluído com um arquivo CSS externo (css/style.css), com reset básico (box-sizing: border-box) e variáveis CSS no :root para cores, fonte e bordas. Foram estilizados o header, o menu de navegação, os links, os botões (com :hover e transition), os cards de destinos e pacotes e o formulário de contato/reserva. O layout foi organizado com Flexbox, usando medidas relativas (rem, %, vh) e media queries (@media) para adaptar o site a desktop, tablet e celular, sem rolagem horizontal. O trabalho foi feito em branches separadas por integrante e integrado na main por Pull Requests.
