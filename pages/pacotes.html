@@ -4,94 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destinos</title>
-    
+    <title>TripWay - Pacotes</title>
+
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
     <header>
-
+        <h1><a href="../index.html">TripWay</a></h1>
         <nav>
             <ul>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-
-                <li>
-                    <a href="destinos.html">Destinos</a>
-                </li>
-
-                <li>
-                    <a href="pacotes.html">Pacotes</a>
-                </li>
-
-                <li>
-                    <a href="contato.html">Contato</a>
-                </li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="pacotes.html" class="ativo">Pacotes</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
-
     </header>
 
     <main>
+        <section class="secao">
+            <div class="container">
 
-        <h1>Pacotes e Serviços</h1>
+                <h2 class="secao-titulo pacotes-titulo">Pacotes e Serviços</h2>
+                <p class="pacotes-subtitulo">Escolha o pacote ideal para a sua viagem.</p>
 
-        <div class="container-pacotes">
+                <img src="../images/pacotes.jpg" alt="Mala de viagem representando os pacotes turísticos da TripWay" class="pacotes-banner">
 
-            <h2>Escolha o pacote ideal para sua viagem</h2>
+                <div class="pacotes-container">
 
-            <articleclass="card-pacote">
+                    <article class="card-pacote">
+                        <span class="pacote-tag">Praia</span>
+                        <h3>Pacote Essencial</h3>
+                        <p>Uma opção prática para quem quer organizar a viagem com os principais serviços: passagem e hospedagem.</p>
+                        <ul>
+                            <li>Passagem aérea</li>
+                            <li>Hospedagem</li>
+                        </ul>
+                        <a href="contato.html" class="btn btn-primario">Reservar</a>
+                    </article>
 
-                <h3>Pacote Essencial</h3>
+                    <article class="card-pacote">
+                        <span class="pacote-tag">Aventura</span>
+                        <h3>Pacote Conforto</h3>
+                        <p>Uma experiência completa para quem busca mais comodidade e passeios guiados durante a viagem.</p>
+                        <ul>
+                            <li>Passagem e hospedagem</li>
+                            <li>Transfer do aeroporto</li>
+                            <li>Passeios guiados</li>
+                        </ul>
+                        <a href="contato.html" class="btn btn-primario">Reservar</a>
+                    </article>
 
-                <p>
-                    Uma opção prática para quem deseja organizar
-                    sua viagem com os principais serviços.
-                </p>
+                    <article class="card-pacote card-pacote-destaque">
+                        <span class="pacote-tag">Internacional</span>
+                        <h3>Pacote Premium</h3>
+                        <p>Para quem deseja uma experiência diferenciada, com roteiro personalizado e suporte em toda a viagem.</p>
+                        <ul>
+                            <li>Tudo do Conforto</li>
+                            <li>Roteiro personalizado</li>
+                            <li>Consultoria de viagem</li>
+                        </ul>
+                        <a href="contato.html" class="btn btn-primario">Reservar</a>
+                    </article>
 
-            </article>
-           
-            <article class="card-pacote">
+                </div>
 
-                <h3>Pacote Conforto</h3>
-
-                <p>
-                    Uma experiência completa para quem busca
-                    mais comodidade durante a viagem.
-                </p>
-
-            </article>
-
-            <article class="card-pacote">
-
-                <h3>Pacote Premium</h3>
-
-                <p>
-                    Uma opção para quem deseja uma experiência
-                    diferenciada e personalizada.
-                </p>
-
-            </article>
-
-        </div>
-
-            <img
-                class="imagem-pacote"
-                src="../images/pacotes.jpg"
-                alt="Mala de viagem representando os pacotes turísticos da TripWay"
-            >
-
+            </div>
         </section>
-
     </main>
 
     <footer>
-
-        <p>&copy; 2026 TripWay. Todos os direitos reservados.</p>
-
+        <p>&copy; 2026 TripWay - Guia de Viagens. Todos os direitos reservados.</p>
     </footer>
 
 </body>
