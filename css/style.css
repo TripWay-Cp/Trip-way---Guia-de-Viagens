@@ -1,3 +1,44 @@
+/* ============================= */
+/* VARIÁVEIS                     */
+/* ============================= */
+
+:root {
+    --cor-primaria: #0e7490;
+    --cor-primaria-escura: #155e75;
+    --cor-destaque: #f97316;
+    --cor-fundo: #f5f6f8;
+    --cor-branco: #ffffff;
+    --cor-texto: #222222;
+    --cor-texto-claro: #6b7280;
+    --cor-escura: #111827;
+
+    --fonte-principal: Arial, Helvetica, sans-serif;
+    --raio-borda: 0.5rem;
+}
+
+/* ============================= */
+/* RESET E CONFIGURAÇÕES GERAIS  */
+/* ============================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
 img {
     max-width: 100%;
     height: auto;
