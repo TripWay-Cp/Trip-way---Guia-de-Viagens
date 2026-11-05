@@ -1,8 +1,29 @@
 # TripWay - Guia de Viagens
 
-Projeto desenvolvido para o **Checkpoint 1 de Front-End** da FIAP.
+## Integrantes
 
-Site multipágina em HTML de uma empresa fictícia de viagens chamada **TripWay**, que apresenta destinos, pacotes e permite ao usuário simular uma reserva.
+Turma: **1TDSPT**
+
+- Lucas Alves Pires - RM576621
+- Daniel Platero - RM575084
+- Rafael - RM575391
+
+## Descrição
+
+Projeto desenvolvido para a disciplina de Front-End da FIAP, com o objetivo de criar um site multipágina para a **TripWay**, uma empresa fictícia de viagens que apresenta destinos, pacotes e permite ao usuário simular uma reserva.
+
+## Evolução do Projeto
+
+No **Checkpoint 1**, o foco foi a estrutura HTML: páginas, navegação, formulário e colaboração com GitHub.
+
+No **Checkpoint 2**, o projeto foi evoluído com CSS externo, identidade visual (cores e fontes definidas em variáveis), layout com Flexbox, cards estilizados, botões com `:hover` e responsividade para desktop, tablet e celular.
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- Git
+- GitHub
 
 ## Páginas
 
@@ -36,6 +57,12 @@ Trip-way---Guia-de-Viagens/
 - Caminhos relativos para links e imagens
 - Formulário com `form`, `label`, `input`, `select`, `textarea` e `button`
 - Imagens com atributo `alt`
+- CSS externo (`css/style.css`)
+- Reset básico com `box-sizing: border-box`
+- Variáveis CSS no `:root` (cores, fonte e bordas)
+- Flexbox (`display: flex`) no header, na Home e nos cards
+- Medidas relativas (`rem`, `%`, `vh`, `vw`)
+- Responsividade com Media Queries (`@media`)
 - Git e GitHub com branches e Pull Requests
 
 ## Como abrir
@@ -50,7 +77,7 @@ Trip-way---Guia-de-Viagens/
 
 | Integrante | Responsabilidade | Branch |
 |---|---|---|
-| Lucas Alves Pires - RM76621 | Home e estrutura inicial | `estrutura/home` |
+| Lucas Alves Pires - RM576621 | Home, CSS base (reset, variáveis), header, navegação e botões | `feature/home` |
 | Daniel Platero - RM575084 | Destinos, Pacotes e imagens | `feat/páginas-2-3` |
 | Rafael - RM575391 | Contato e formulário | `rafael-contato` |
 
