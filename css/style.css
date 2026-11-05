@@ -128,6 +128,160 @@ a:hover {
     color: var(--cor-primaria-escura);
 }
 
+/* ============================= */
+/* HOME                          */
+/* ============================= */
+
+/* Banner principal */
+.hero {
+    background: linear-gradient(135deg, var(--cor-escura), var(--cor-primaria));
+    color: var(--cor-branco);
+    padding: 4rem 0;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.hero-texto {
+    flex: 1;
+}
+
+.hero-tag {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 0.3rem 1rem;
+    border-radius: 1.25rem;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+.hero-titulo {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.hero-titulo span {
+    color: var(--cor-destaque);
+}
+
+.hero-descricao {
+    color: #e5e7eb;
+    margin-bottom: 1.75rem;
+}
+
+.hero-texto .btn {
+    margin: 0 0.5rem 0.5rem 0;
+}
+
+.hero .hero-imagem {
+    flex: 1;
+    width: 100%;
+    max-width: 32rem;
+    height: 22rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 0;
+}
+
+/* Seções gerais */
+.secao {
+    padding: 3.5rem 0;
+}
+
+.secao-titulo {
+    color: var(--cor-escura);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Sobre */
+.sobre-container {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.sobre-container .sobre-imagem {
+    flex: 1;
+    width: 100%;
+    max-width: 28rem;
+    border-radius: 1rem;
+    margin: 0;
+}
+
+.sobre-texto {
+    flex: 1;
+}
+
+.sobre-texto p {
+    color: var(--cor-texto-claro);
+}
+
+/* Vantagens */
+.secao-vantagens {
+    background-color: var(--cor-branco);
+}
+
+.secao-vantagens .secao-titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.vantagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.card-vantagem {
+    flex: 1 1 15rem;
+    background-color: var(--cor-fundo);
+    padding: 1.5rem;
+    border-radius: var(--raio-borda);
+    border-top: 0.25rem solid var(--cor-destaque);
+}
+
+.card-vantagem h3 {
+    color: var(--cor-escura);
+    margin-bottom: 0.5rem;
+}
+
+.card-vantagem p {
+    color: var(--cor-texto-claro);
+    font-size: 0.95rem;
+}
+
+/* Chamada final */
+.chamada {
+    background-color: var(--cor-escura);
+    color: var(--cor-branco);
+    text-align: center;
+}
+
+.chamada h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.75rem;
+}
+
+.chamada p {
+    color: #d1d5db;
+    margin-bottom: 1.5rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--cor-escura);
+    color: #9ca3af;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 1.25rem 5%;
+    border-top: 0.0625rem solid #374151;
+}
+
 img {
     max-width: 100%;
     height: auto;
