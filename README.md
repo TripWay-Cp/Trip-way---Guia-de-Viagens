@@ -6,7 +6,7 @@ Turma: **1TDSPT**
 
 - Lucas Alves Pires - RM576621
 - Daniel Platero - RM575084
-- Rafael - RM575391
+- Rafael Girardi - RM575391
 
 ## Descrição
 
